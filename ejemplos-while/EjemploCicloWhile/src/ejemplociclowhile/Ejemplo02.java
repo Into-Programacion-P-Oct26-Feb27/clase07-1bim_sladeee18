@@ -27,13 +27,15 @@ public class Ejemplo02 {
             if (contador%2!=0) {
                 System.out.printf("Contador %d\n", 
                     contador);
+                suma = suma + contador ;
             }
             
             contador = contador + 1;
         }
-        
+        System.out.printf("La suma de impares es %d\n", suma);
     }
 }
 /*
-
+Generar un progama que me permita ingresar un limite por teclado y presentar la
+suma de todos los numero impares que exitan en 1 - limite
 */
